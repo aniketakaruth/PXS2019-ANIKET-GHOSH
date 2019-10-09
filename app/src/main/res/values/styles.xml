@@ -1,0 +1,215 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="LightToolbar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DarkToolbar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="SubToolbar" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@color/toolbarColor</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="registration_button" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:radius">1dp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="registration_button_disabled" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:radius">1dp</item>
+
+    </style>
+
+    <style name="LibAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="PickerTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMaxWidth">0dp</item>
+    </style>
+
+
+
+    <style name="location_input_box">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/input_text_color</item>
+
+    </style>
+
+    <style name="location_input_box_disabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/input_text_color_disabled</item>
+    </style>
+
+    <style name="outline_button" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+
+    <style name="outline_button_black" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="roundedButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="outline_button_white" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:radius">2dp</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlayDark" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlayDark" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="text_input">
+        <item name="android:layout_height">44dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="placeholder">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/lightGrey</item>
+
+    </style>
+
+    <style name="view_all_header_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="main_toolbar_style">
+        <item name="android:textSize">14sp</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/toolbarColor</item>
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="sub_toolbar_style_store">
+        <item name="android:textSize">12sp</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabMinWidth">8dp</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+
+    </style>
+
+    <style name="sub_toolbar_style">
+        <item name="android:textSize">14sp</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabMinWidth">8dp</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+
+    </style>
+
+    <style name="profile_heading">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/divider</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="profile_menu_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="profile_data_text_field_style">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="blue_heading">
+        <item name="android:background">@color/toolbarColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

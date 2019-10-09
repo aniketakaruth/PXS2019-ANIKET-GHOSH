@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">parXsys</string>
+    <string name="parxsys">Parxsys</string>
+    <string name="employee_attendance_application">Employee Attendance Application</string>
+    <string name="note_you_have_to_select_the_employee_name_from_the_employees_list_and_feed_the_month_you_want_to_to_get_detailed_attendance_rocord_of_that_employee"> ## Note : You have to select the employee name from the employees list and feed the month you want to get detailed attendance rocord of that employee. \t
+    . Note that wrong information will show no data</string>
+    <string name="hours_logged">Hours Logged</string>
+    <string name="days_present">Days Present</string>
+    <string name="days_absent">Days Absent</string>
+    <string name="date_of_the_month">Date of the month</string>
+</resources>
